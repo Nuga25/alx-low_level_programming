@@ -3,6 +3,7 @@
  *
  * Return: 0
  */
+
 #include <stdio.h>
 
 int main(void)
@@ -12,7 +13,6 @@ int main(void)
 	long int c;
 	long long int d;
 	float f;
-	
 
 	printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 	printf("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
