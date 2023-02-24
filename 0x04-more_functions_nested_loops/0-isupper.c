@@ -3,7 +3,7 @@
 
 /**
  * _isupper - returns 0 or 1
- * @c - character to print
+ * @c: - character to print
  * Return: _isupper
  */
 
