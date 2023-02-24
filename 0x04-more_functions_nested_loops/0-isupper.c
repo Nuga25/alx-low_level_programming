@@ -3,18 +3,14 @@
 
 /**
  * _isupper - returns 0 or 1
- *
+ * @c - character to print
  * Return: _isupper
  */
 
 int _isupper(int c)
 {
 	if (isupper(c))
-		putchar(1);
+		return (1);
 	else
-		putchar(0);
-
-	putchar('\n');
-
-	return (_isupper);
+		return (0);
 }
