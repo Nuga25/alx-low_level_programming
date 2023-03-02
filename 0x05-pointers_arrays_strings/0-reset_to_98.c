@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - changes n to 98
- * @n - int to check
+ * @n: int to check
  * Return: 98
  */
 
