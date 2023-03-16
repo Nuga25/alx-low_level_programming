@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 #include <string.h>
 
@@ -11,8 +12,9 @@
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
-	char *catn;
-	int i, len = s1 + s2;
+	char *catn, **s2n;
+	unsigned int i;
+	int len = strlen(s1) + strlen(s2);
 
 	if (s1 == NULL)
 		return ("");
@@ -26,7 +28,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	for (i = 0; i <= n; i++)
 	{
-		strcat(s1, s2[i])
+		s2n = s2[i];
+		strcat(s1, s2n);
 	}
 
 	return (catn);
